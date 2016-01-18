@@ -1,2 +1,2 @@
 # conky-quotes
-Conky minimalistic monitor and custom quotes
+Conky minimalistic monitor with custom quotes
