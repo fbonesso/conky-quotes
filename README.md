@@ -9,7 +9,7 @@ cp conkyrc ~/.conkyrc
 ```
 
 # Quote
-In order to change you favorite quote, just edit the `~/.conkyrc` file with your custom quote:
+In order to change your favorite quote, just edit the `~/.conkyrc` file with your custom quote:
 ```
 ${font Dosis:light:size=12}${alignr}"Your custom quote here"$font
 ${font Dosis:light:size=16}${alignr}Author
