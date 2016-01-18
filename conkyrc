@@ -1,0 +1,42 @@
+background no
+use_xft yes
+xftfont Dosis:light:size=10
+update_interval 0.5
+own_window yes
+own_window_type desktop
+own_window_title no
+own_window_transparent yes
+own_window_colour 000000
+own_window_hints undecorated,below,skip_taskbar,skip_pager, sticky
+own_window_argb_visual yes
+double_buffer yes
+minimum_size 1890 1
+maximum_width 1890
+draw_shades no
+draw_outline no
+draw_borders no_buffers
+draw_graph_borders no
+default_color ffffff
+default_shade_color 000000
+default_outline_color ffffff
+alignment bottom_left
+no_buffers yes
+uppercase no
+use_spacer left
+border_inner_margin 0
+pad_percents 2
+temperature_unit celsius
+
+gap_x 10
+gap_y 10
+
+color1 ffffff
+
+TEXT
+${font Dosis:light:size=12}${alignr}"Your custom quote here"$font
+${font Dosis:light:size=16}${alignr}Author
+
+${font Dosis:bold:size=10} CPU $font ${cpu cpu1}% of ${freq 1}Mhz ${cpu cpu2}% of ${freq 2}Mhz \
+${font Dosis:bold:size=10} RAM $font $mem \
+${font Dosis:bold:size=10} DOWNLOAD $font ${downspeed enp7s0}/s (${totaldown enp7s0}) \
+${font Dosis:bold:size=10} UPLOAD $font ${upspeed enp7s0}/s (${totalup enp7s0}) \
